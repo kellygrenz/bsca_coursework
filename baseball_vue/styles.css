@@ -1,0 +1,21 @@
+.container {
+    background-color: black;
+}
+
+.playerInfo {
+    border: 5px solid #005B50;
+    background: #C5D3E2;
+    margin-bottom: 15px;
+    padding: 30px 50px;
+
+
+}
+
+.playerInfo img {
+    border: 6px solid white;
+    border-radius: 10px;
+    display: block; 
+    margin: auto;
+
+
+}

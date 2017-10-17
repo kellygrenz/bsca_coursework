@@ -81,14 +81,13 @@ const playerInfo = baseballPlayers.filter(player =>   {
 // 4) Create a function that returns the average of all players HR (for loop)
 
 const runAvg = (arr) => {
-  let numPlayers = 0
-  let totalRuns = arr[i].HR
-
+  let totalRuns = 0
+ 
   for(i = 0; i < arr.length; i++){
-    numPlayers++
-    totalRuns++
+    totalRuns+=arr[i].HR
+  
   }
-  return  (totalRuns / numPlayers)
+  return totalRuns / arr.length
 }
 
 console.log(runAvg(baseballPlayers))

@@ -80,4 +80,7 @@ const newRecipe = (numRecipes) => {
     
 }
 
-console.log(newRecipe(80))
+const recipes = newRecipe(80)
+
+recipes[40].ingredients.flour='4 cups'
+console.log(recipes[40])

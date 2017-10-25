@@ -1,0 +1,26 @@
+.resort-container {
+    background-color: #878f99;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.resort-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: calc(33% - 10px);
+    margin-left: calc(33% - 10%);
+    margin-right: calc(33% - 10%);
+    background-color: orange;
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.resort-card img {
+    text-align: center;
+    max-width: 100%;
+}
